@@ -1,5 +1,6 @@
 <?php
-	include('session.php');
+	// include('session.php');
+	include('../conn.php');
 	if(isset($_POST['edit'])){
 		$id=$_POST['id'];
 		$name=$_POST['name'];
